@@ -111,7 +111,7 @@
                 <version>3.1.2</version> <!-- or latest stable -->
                 <configuration>
                     <includes>
-                        <include>**/TestRunner.java</include> <!-- Your TestNG-based runner -->
+                        <include>**/TestNgTestRunner.java</include> <!-- Your TestNG-based runner -->
                     </includes>
                     <!--                    <testFailureIgnore>false</testFailureIgnore>-->
                     <!--                    <parallel>methods</parallel>-->
