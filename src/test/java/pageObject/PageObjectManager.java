@@ -8,7 +8,11 @@ public class PageObjectManager {
     public LoginPage loginPage;
     public AllSitePage allSitePage;
     public DashBoardRunPage dashBoardRunPage;
-    public DashBoardWithMoreThanOneTabPage dashBoardWithMoreThanOneTabPage;
+    public CiplaContractManagementPage ciplaContractManagementPage;
+    public ConstellationPriceWatcherPage constellationPriceWatcherPage;
+    public CoronisPerformancePage coronisPerformancePage;
+    public CostManagementReportPage costManagementReportPage;
+    public DBS2018Page dBS2018Page;
 //    public BasicSeleniumPage  basicSeleniumPage;
 
     public PageObjectManager(WebDriver driver) {
@@ -31,14 +35,24 @@ public class PageObjectManager {
         return dashBoardRunPage;
     }
 
-    public DashBoardWithMoreThanOneTabPage getDashBoardWithMoreThanOneTabPage() {
-        dashBoardWithMoreThanOneTabPage = new DashBoardWithMoreThanOneTabPage(driver);
-        return dashBoardWithMoreThanOneTabPage;
+    public CiplaContractManagementPage getCiplaContractManagementPage() {
+        ciplaContractManagementPage = new CiplaContractManagementPage(driver);
+        return ciplaContractManagementPage;
     }
-
-
-//    public BasicSeleniumPage getBasicSelenium() {
-//        basicSeleniumPage = new BasicSeleniumPage(driver);
-//        return basicSeleniumPage;
-//    }
+    public ConstellationPriceWatcherPage getconstellationPriceWatcherPage() {
+        constellationPriceWatcherPage = new ConstellationPriceWatcherPage(driver);
+        return constellationPriceWatcherPage;
+    }
+    public CoronisPerformancePage getCoronisPerformancePage() {
+        coronisPerformancePage = new CoronisPerformancePage(driver);
+        return coronisPerformancePage;
+    }
+    public CostManagementReportPage getcostManagementReportPage() {
+        costManagementReportPage = new CostManagementReportPage(driver);
+        return costManagementReportPage;
+    }
+    public DBS2018Page getDBS2018Page() {
+        dBS2018Page = new DBS2018Page(driver);
+        return dBS2018Page;
+    }
 }

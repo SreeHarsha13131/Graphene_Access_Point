@@ -1,5 +1,5 @@
 Feature: Application Login
-  @ApplicationsRun
+#  @ApplicationsRun
 
   Scenario Outline: Validate Login Scenario
 

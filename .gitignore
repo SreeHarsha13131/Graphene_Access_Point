@@ -36,3 +36,9 @@ build/
 
 ### Mac OS ###
 .DS_Store
+
+### Session Management ###
+# Exclude authentication session files (contains sensitive data)
+src/test/java/resources/auth-session.json
+auth-session.json
+*.session.json
