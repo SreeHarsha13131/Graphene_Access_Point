@@ -115,6 +115,7 @@ public class CiplaContractManagementPage {
                 searchField.clear();
                 searchField.sendKeys(siteName);
                 Thread.sleep(200);
+                System.out.println("New coddd");
 
                 // Step 2: Click on the site link
                 String siteTileXpath = String.format(tileXpathTemplate, siteName);
