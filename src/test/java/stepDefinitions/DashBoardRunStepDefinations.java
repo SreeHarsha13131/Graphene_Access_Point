@@ -41,11 +41,11 @@ public class DashBoardRunStepDefinations {
         dashBoardRunPage.searchMicrosoftSignInTextField(UserName);
         dashBoardRunPage.microsoftSubmitBtn();
         dashBoardRunPage.SendMicrosoftPasswordTestField(Password);
-        Thread.sleep(5000);
+        Thread.sleep(10000);
 
 //        genericUtils.explicitWait(genericUtils.driver, loginPage.microsoftSignInBtn());
         dashBoardRunPage.microsoftSignInBtn();
-        Thread.sleep(1000);
+        Thread.sleep(10000);
         dashBoardRunPage.microsoftDoNotShowAgain();
         Thread.sleep(1000);
         dashBoardRunPage.microsoftYesBtn();
