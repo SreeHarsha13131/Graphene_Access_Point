@@ -93,6 +93,30 @@
     </dependencies>
     <build>
         <plugins>
+            <!-- Cucumber HTML Reports -->
+            <plugin>
+                <groupId>net.masterthought</groupId>
+                <artifactId>maven-cucumber-reporting</artifactId>
+                <version>5.7.0</version>
+                <executions>
+                    <execution>
+                        <id>generate-cucumber-reports</id>
+                        <phase>test</phase>
+                        <goals>
+                            <goal>generate</goal>
+                        </goals>
+                        <configuration>
+                            <projectName>Graphene_AccessPoint</projectName>
+                            <outputDirectory>${project.build.directory}/cucumber-html-reports</outputDirectory>
+                            <inputDirectory>${project.build.directory}/cucumber-json</inputDirectory>
+                            <jsonFiles>
+                                <jsonFile>cucumber.json</jsonFile>
+                            </jsonFiles>
+                            <checkBuildResult>false</checkBuildResult>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
             <!-- Compile Plugin -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
