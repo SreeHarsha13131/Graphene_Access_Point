@@ -1,5 +1,5 @@
 Feature: Cipla Contract Management - Order Form Demo
-#  @DashBoardRun
+  @DashBoardRun
   Scenario Outline: Validate Login Scenario
 
     Given Open the Chrome Browser and Navigate to AccessPoint Login Pages
