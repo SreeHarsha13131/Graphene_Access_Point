@@ -152,6 +152,8 @@ public class ConstellationPriceWatcherPage {
                         By.xpath(containerLayout))).isDisplayed());
                 Thread.sleep(500);
                 driver.findElement(sKUpriceVsBrandAvgprice).click();
+                System.out.println("Sree harsha");
+                System.out.println("Sree harsha");
                 Thread.sleep(1000);
                 driver.switchTo().defaultContent();
                 driver.switchTo().frame(0);

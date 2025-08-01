@@ -13,6 +13,7 @@ echo 3. Chrome browser installed
 echo.
 pause
 
+
 echo.
 echo Starting session setup...
 echo.
