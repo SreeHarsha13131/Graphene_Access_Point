@@ -2,8 +2,8 @@ pipeline {
     agent any
 
     tools {
-        maven 'Maven'   // Make sure these are configured in Jenkins
-        jdk 'JDK17'     // Rename if needed in Global Tool Configuration
+        maven 'M2_Home'   // Make sure these are configured in Jenkins
+        jdk 'JAVA_HOME'     // Rename if needed in Global Tool Configuration
     }
 
     environment {
