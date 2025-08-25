@@ -1,5 +1,5 @@
 Feature: Application Login
-#  @DashBoardRun
+  @DashBoardRun
 
   Scenario Outline: Validate Login Scenario
 

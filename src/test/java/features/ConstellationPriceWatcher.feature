@@ -1,5 +1,5 @@
 Feature: Constellation - Price Watcher
-  @DashBoardRun
+#  @DashBoardRun
   Scenario Outline: Validate All the tabs in the Constellation - Price Watcher
 
     Given Open the Chrome Browsers and Navigate to AccessPoint Login Pages
