@@ -123,7 +123,8 @@ public void clickAndValidateSites(List<String> siteNames) {
 //            Hooks.logInfo("Successfully entered application name in search field: " + siteName);
 
             // Wait for search results
-            Thread.sleep(1000);
+            Thread.sleep(3000);
+
 
             // Step 2: Click on the site link
             String siteTileXpath = String.format(tileXpathTemplate, siteName);
