@@ -165,7 +165,7 @@ public void clickAndValidateSites(List<String> siteNames) {
             // Step 5: Return to parent frame and click home icon
             driver.switchTo().defaultContent();
             WebElement homeIcons = wait.until(ExpectedConditions.elementToBeClickable(homeIcon));
-            homeIcons.click();
+            homeIcons.click(); 
 
             // Wait to return to appMain tab
             wait.until(ExpectedConditions.presenceOfElementLocated(searchApplication));
